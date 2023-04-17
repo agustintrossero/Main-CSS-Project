@@ -1,0 +1,17 @@
+
+.top-header-container{
+    display: flex;
+    justify-content: space-around
+}
+
+.top-header-links{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    margin-top: 1.3rem;
+}
+
+.header-link{
+    display: flex;
+    justify-content: space-between;
+}
