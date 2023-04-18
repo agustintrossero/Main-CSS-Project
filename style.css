@@ -1,4 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 
+/*HEADER*/
 
 .top-header-container{
     display: flex;
@@ -23,3 +27,26 @@
     grid-template-columns: 1fr 1fr;
     padding: 0px 10rem 0px 10rem;
 }
+
+/*MAIN*/
+
+.main-cards-container {
+    list-style-type: none;
+    max-width: 70rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+@media (min-width: 368px){
+    .main-cards-container{
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 768px){
+    .main-cards-container{
+      grid-template-columns: repeat(4, 1fr);
+    }
+}
+
