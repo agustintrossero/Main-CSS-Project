@@ -58,6 +58,7 @@ nav{
     font-size: 48px;
     font-weight: 900;
     margin:0;
+    width: 320px;
 }
 
 .header-left .header-button{
@@ -73,6 +74,7 @@ nav{
     align-items: center;
     height: 300px;
     width: auto;
+    justify-content: flex-end;
 }
 
 .top-header-links , .bottom-header .header-left p{
@@ -83,9 +85,6 @@ nav{
 .header-left p{
     margin-top: 0;
 }
-
-
-
 
 /*MAIN*/
 
@@ -120,8 +119,9 @@ nav{
         flex-wrap: wrap;
         justify-content: center;
     }
-    .cardd p{
+    .card p{
         font-size: 18px;
+        text-align: center;
     }
 }
 @media (min-width: 768px){
@@ -150,6 +150,11 @@ nav{
 .sing-up-container{
     display: flex;
     justify-content: space-around;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    margin: 5rem 10rem;
+    padding: 1.5rem 0;
+    border-radius: 6px;
 }
 
 .left-singup{
@@ -170,6 +175,14 @@ nav{
     align-items: center;
 }
 
+.right-signup button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 40px;
+    border: #F9FAF8 solid 2px;
+    border-radius: 6px;
+}
+
 .copyright-container {
     display: flex;
     flex-direction: column;
@@ -181,14 +194,12 @@ footer .copyright-container p{
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 10px 0px;
+    padding: 25px 0px;
     color: #F9FAF8;
     background-color: #1F2937;
 }
 
-footer .copyright-container h2{
-    margin-top: 0;
-}
+
 
 
 
