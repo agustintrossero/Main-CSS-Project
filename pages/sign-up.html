@@ -21,9 +21,9 @@
             </div>
             <nav>
                 <ul class="top-header-links">
-                    <li class="header-link"><a href="#">Menu</a></li>
-                    <li class="header-link"><a href="#">Blogs</a></li>
-                    <li class="header-link"><a href="#">About us</a></li>
+                    <li class="header-link"><a href="./menu.html">Menu</a></li>
+                    <li class="header-link"><a href="./blogs.html">Blogs</a></li>
+                    <li class="header-link"><a href="./about-us.html">About us</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,52 +31,50 @@
             <div class="header-left">
                 <h1 class="tittle">This is Brainnest</h1>
                 <p class="description">Welcome to the best multicultural restaurant in the world!, to you want to recieve notifications from us? join us!</p>
-                <button class="header-button"><b>Sing up</b></button>
             </div>
             <div class="header-right">
                 <form action="../index.html">
-                    <div class="mb-5">
-                        <label htmlFor="name" class="block text-gray-700 uppercase font-bold">
-                            Name
-                          </label>
-                          <input 
-                            id="name"
-                            type="text"
-                            placeholder="Name"
-                            class="border-2 w-full p-2 mt-2 placeholder-gray-400  rounded-md"
-                          />
+                    <div>
+                        <label for="name">Name</label>
+                        <input 
+                        id="name"
+                        type="text"
+                        placeholder="Name"
+                        class="border-2 w-full p-2 mt-2 placeholder-gray-400  rounded-md"
+                        required
+                        />
                       </div>
-                      <div class="mb-5">
-                        <label htmlFor="surname" class="block text-gray-700 uppercase font-bold">
-                            Surname
-                          </label>
+                      <div>
+                        <label for="surname">Surname</label>
                           <input 
                             id="surname"
                             type="text"
                             placeholder="Surname"
-                            class="border-2 w-full p-2 mt-2 placeholder-gray-400  rounded-md"
+                            required
                           />
                       </div>
-                      <div className="mb-5">
-                        <label htmlFor="email" className="block text-gray-700 uppercase font-bold">
-                            Email
-                          </label>
+                      <div>
+                        <label for="email">Email</label>
                           <input 
                             id="email"
                             type="email"
                             placeholder="Contact email"
-                            className="border-2 w-full p-2 mt-2 placeholder-gray-400  rounded-md"
+                            required
                           />
                       </div>
                       <input 
                         type="submit"
-                        class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold uppercase w-full p-3 cursor-pointer transition-colors rounded-md" 
+                        id="submit"
                         value="Register"
                         />
                 </form>
             </div>
         </section>
     </header>
-    
+    <footer>
+        <div class="copyright-container">
+            <p>Copyright ©</p>
+        </div>
+    </footer>
 </body>
 </html>

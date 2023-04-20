@@ -58,8 +58,15 @@ nav{
 .header-link a{
     color: inherit;
     text-decoration: inherit;
+    transition-property: background-color;
+    transition-property: color;
+    transition-duration: 1500ms; 
 }
 
+.header-link a:hover{
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
 
 .bottom-header{
     display: grid;
@@ -214,7 +221,40 @@ footer .copyright-container p{
     background-color: #1F2937;
 }
 
+/*SIGN-UP*/
 
+form {
+    display: flex;
+    flex-direction: column;
+}
 
+form div{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+form div label{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form div input{
+    border: #3882F6 solid 2px;
+    padding: 9px;
+    margin-top: 2px;
+    border-radius: 6px;
+    width: 80%;
+}
+
+#submit{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 2px;
+}
 
 
